@@ -1,0 +1,283 @@
+@media (max-width: 1150px) {
+  .about__company {
+    margin-bottom: 434px;
+  }
+  .about__company-block {
+    padding-top: 56px;
+  }
+  .about__company-title {
+    color: #fefcf7;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    margin-bottom: 24px;
+  }
+  .about__company-description {
+    color: #fefcf7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.8;
+  }
+
+  .company__advantages {
+    display: flex;
+    flex-direction: column;
+    bottom: -295px;
+  }
+  .company__advantages-block {
+    display: flex;
+    max-width: 573px;
+    height: 180px;
+    flex-direction: row;
+    align-items: center;
+    padding: 41px 48px 41px 70px;
+  }
+  .company__advantages-description {
+    color: #fefcf7;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media (max-width: 1070px) {
+  .product__instruction {
+    max-width: 889px;
+    margin-bottom: 120px;
+  }
+  .product__instruction h1 {
+    margin-bottom: 40px;
+  }
+  .product__instruction-bg {
+    max-width: 80%;
+    margin-bottom: 48px;
+  }
+  .product__info {
+    margin-bottom: 44px;
+  }
+  .product__info-pick {
+    width: 223px;
+  }
+  .product__info-subtitle {
+    width: 220px;
+    color: #333d4b;
+    font-family: "Fraunces", serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+  }
+  .product__info-description {
+    height: 152px;
+    color: #333d4b;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media (max-width: 880px) {
+  .product__instruction {
+    max-width: 689px;
+  }
+  .product__instruction-bg {
+    max-width: 72%;
+    width: 497px;
+    height: 21px;
+  }
+  .product__info {
+    column-gap: 5px;
+  }
+  .product__info-pick {
+    height: 369px;
+  }
+}
+@media (max-width: 800px) {
+  .main__introduction {
+    min-height: 500px;
+    padding: 104px 0 104px 58px;
+  }
+  .main__introduction-title {
+    max-width: 329px;
+    color: #fefcf7;
+    font-family: "Fraunces", serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+  }
+  .main__introduction-paragraph {
+    max-width: 398px;
+    color: #fefcf7;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.8;
+  }
+}
+@media (max-width: 800px) {
+  .main__product {
+    flex-direction: column;
+    padding-top: 70px;
+    max-width: 689px;
+    margin-bottom: 144px;
+  }
+  .main__product-item {
+    flex-direction: row;
+  }
+  .main__product-description {
+    width: 282px;
+    color: #333d4b;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media (max-width: 550px) {
+  .main__introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 23px;
+    box-shadow: inset 0px 4px 4px 200px rgba(0, 0, 0, 0.25);
+    margin-bottom: 120px;
+  }
+  .main__introduction-title {
+    color: #fefcf7;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+  }
+  .main__introduction-paragraph {
+    color: #fefcf7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .main__product {
+    margin-bottom: 120px;
+  }
+  .main__product-item {
+    margin-top: 30px;
+    row-gap: 24px;
+    flex-direction: column;
+  }
+  .main__product-title {
+    color: #333d4b;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 16px;
+  }
+  .main__product-description {
+    color: #333d4b;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+@media (max-width: 570px) {
+  .about__company {
+    height: 902px;
+    margin-bottom: 724px;
+  }
+  .about__company-block {
+    width: 279px;
+    padding-top: 64px;
+  }
+
+  .company__advantages {
+    bottom: -600px;
+    gap: 24px;
+  }
+  .company__advantages :last-child {
+    gap: 67px;
+  }
+  .company__advantages-block {
+    padding: 72px 12px 51px 12px;
+    width: 289px;
+    height: 382px;
+    flex-direction: column;
+  }
+  .company__advantages-title {
+    width: 255px;
+    color: #fefcf7;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+  }
+}
+@media (max-width: 700px) {
+  .product__instruction .button-media {
+    display: flex;
+    justify-content: center;
+  }
+  .product__instruction h1 {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .product__instruction-bg {
+    display: none;
+  }
+  .product__info {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .product__info-pick {
+    width: 327px;
+  }
+  .product__info-title {
+    width: 327px;
+    color: #fdd6ba;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+  }
+  .product__info-subtitle {
+    width: 327px;
+  }
+  .product__info-description {
+    width: 327px;
+    color: #333d4b;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}

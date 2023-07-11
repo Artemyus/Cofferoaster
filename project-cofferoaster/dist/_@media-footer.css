@@ -1,0 +1,29 @@
+@media (max-width: 950px) {
+  .footer {
+    flex-direction: column;
+    padding: 54px 0 54px;
+  }
+  .footer__block {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  .footer {
+    min-height: 346px;
+    padding: 54px 54px 54px;
+    gap: 48px;
+  }
+  .footer__block {
+    gap: 48px;
+  }
+  .footer__logo {
+    display: contents;
+    width: 217.846px;
+    height: 24px;
+  }
+  .footer__nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+}
